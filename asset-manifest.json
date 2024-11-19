@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/kakda-app-react/static/css/main.effbe0ed.css",
+    "main.js": "/kakda-app-react/static/js/main.71ce8f2e.js",
+    "static/js/453.5060833f.chunk.js": "/kakda-app-react/static/js/453.5060833f.chunk.js",
+    "static/media/LYNXNPEF6M1L9.jpeg": "/kakda-app-react/static/media/LYNXNPEF6M1L9.1c637c1c0d053ef3dac3.jpeg",
+    "static/media/pngtree-abstract-background-with-3d-rendered-shoes-and-alarm-picture-image_3756028.jpg": "/kakda-app-react/static/media/pngtree-abstract-background-with-3d-rendered-shoes-and-alarm-picture-image_3756028.1c629e375f3762d5794e.jpg",
+    "static/media/background.jpeg": "/kakda-app-react/static/media/background.72e1f5dc4146fca55764.jpeg",
+    "static/media/shoes-3.jpg": "/kakda-app-react/static/media/shoes-3.db092826df132e7174ba.jpg",
+    "static/media/shoes-2.jpg": "/kakda-app-react/static/media/shoes-2.a7a2c5f7c781603837e5.jpg",
+    "static/media/shoes-1.jpg": "/kakda-app-react/static/media/shoes-1.c65cf2d0106b2802409e.jpg",
+    "static/media/download.avif": "/kakda-app-react/static/media/download.7a3a489bca2958a71a5e.avif",
+    "static/media/unnamed.webp": "/kakda-app-react/static/media/unnamed.1d2852a3c4d929ac5405.webp",
+    "static/media/adidas-history-small-steps-1950s.jpg.webp": "/kakda-app-react/static/media/adidas-history-small-steps-1950s.jpg.a29aed2e90c877982b2f.webp",
+    "static/media/services2.png": "/kakda-app-react/static/media/services2.1e07f3935260c4d02180.png",
+    "static/media/about-3.jpg": "/kakda-app-react/static/media/about-3.b75ea0f05e4a421d53f1.jpg",
+    "static/media/services1.png": "/kakda-app-react/static/media/services1.7f54b672243cb521526e.png",
+    "static/media/about-1.jpg": "/kakda-app-react/static/media/about-1.019402436aa696c223b5.jpg",
+    "static/media/services3.png": "/kakda-app-react/static/media/services3.f475a046487948fbb412.png",
+    "static/media/newmodel-3.webp": "/kakda-app-react/static/media/newmodel-3.0ec57456830f8d1011e5.webp",
+    "static/media/newmodel-1.webp": "/kakda-app-react/static/media/newmodel-1.751f76c2f878072ce832.webp",
+    "static/media/newmodel-2.webp": "/kakda-app-react/static/media/newmodel-2.c3175c3a1bd36b06f6b7.webp",
+    "index.html": "/kakda-app-react/index.html",
+    "main.effbe0ed.css.map": "/kakda-app-react/static/css/main.effbe0ed.css.map",
+    "main.71ce8f2e.js.map": "/kakda-app-react/static/js/main.71ce8f2e.js.map",
+    "453.5060833f.chunk.js.map": "/kakda-app-react/static/js/453.5060833f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.effbe0ed.css",
+    "static/js/main.71ce8f2e.js"
+  ]
+}
