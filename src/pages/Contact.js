@@ -15,29 +15,93 @@ export default function Contact() {
         <p>Answers to our most frequently asked questions are just one click away.</p>
         <hr></hr>
         <div className='row my-5 '>
-          <div className='col-lg-4 col-md-4 col-sm-4 col-12'>
+          <div className='d-none col-lg-4 col-md-4 col-sm-4 col-12 d-xl-block d-lg-block d-md-block'>
             <h6>Returns</h6>
             <p>What is Nike's return policy? <br/>How do I return my Nike order? <br/>Where is my refund<br/>View all</p>
           </div>
-          <div className='col-lg-4 col-md-4 col-sm-4 col-12'>
+          <div className='d-none col-lg-4 col-md-4 col-sm-4 col-12 d-xl-block d-lg-block d-md-block'>
             <h6>Shipping & Delivery</h6>
             <p>What are Nike's shipping options? <br/>Can I buy online and pick up in a store?<br/>How do I get free shipping on Nike orders?<br/>View all</p>
           </div>
-          <div className='col-lg-4 col-md-4 col-sm-4 col-12'>
+          <div className='d-none col-lg-4 col-md-4 col-sm-4 col-12 d-xl-block d-lg-block d-md-block'>
             <h6>Orders & Payment</h6>
             <p>Where is my Nike order? <br/>Can I cancel or change my Nike order?<br/>What are Nike's payment options?<br/>View all</p>
           </div>
-          <div className='col-lg-4 col-md-4 col-sm-4 col-12 mt-5'>
+          <div className='d-none col-lg-4 col-md-4 col-sm-4 col-12 d-xl-block d-lg-block d-md-block mt-5'>
             <h6>Shopping</h6>
             <p>How do I find the right size and fit?<br/>How can I get Nike's best deals?<br/>Does Nike offer product advice?<br/>View all</p>
           </div>
-          <div className='col-lg-4 col-md-4 col-sm-4 col-12 mt-5'>
+          <div className='d-none col-lg-4 col-md-4 col-sm-4 col-12 d-xl-block d-lg-block d-md-block mt-5'>
             <h6>Nike Membership & Apps</h6>
             <p>What is Nike Membership? <br/>What is Nike SNKRS Pass?<br/>How can I join Nike SNKRS drawings?<br/>View all</p>
           </div>
-          <div className='col-lg-4 col-md-4 col-sm-4 col-12 mt-5'>
+          <div className='d-none col-lg-4 col-md-4 col-sm-4 col-12 d-xl-block d-lg-block d-md-block mt-5'>
             <h6>Company Info</h6>
             <p>Do Nike shoes have a warranty?<br/>Can I recycle my Nike shoes?<br/>Does Nike offer grants or donations?<br/>View all</p>
+          </div>
+          <div>
+          <div class="accordion accordion-flush d-md-none" id="accordionFlushExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header ">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  Returns
+                  </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body"><p>What is Nike's return policy? <br/>How do I return my Nike order? <br/>Where is my refund<br/>View all</p></div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header ">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  Shipping & Delivery
+                  </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body"><p>What are Nike's shipping options? <br/>Can I buy online and pick up in a store?<br/>How do I get free shipping on Nike orders?<br/>View all</p></div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header ">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  Orders & Payment
+                  </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body"><p>Where is my Nike order? <br/>Can I cancel or change my Nike order?<br/>What are Nike's payment options?<br/>View all</p></div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header ">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  Shopping
+                  </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body"><p>How do I find the right size and fit?<br/>How can I get Nike's best deals?<br/>Does Nike offer product advice?<br/>View all</p></div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header ">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  Nike Membership & Apps
+                  </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body"><p>What is Nike Membership? <br/>What is Nike SNKRS Pass?<br/>How can I join Nike SNKRS drawings?<br/>View all</p></div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header ">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  Company Info
+                  </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body"><p>Do Nike shoes have a warranty?<br/>Can I recycle my Nike shoes?<br/>Does Nike offer grants or donations?<br/>View all</p></div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <h3 className='mt-5'>Contact Us</h3>

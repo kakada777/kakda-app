@@ -247,7 +247,9 @@ ul li{
 .main-ask p{
   font-size: 35px;
 }
-
+.ask button{
+  background-color: rgb(248, 246, 246);
+}
 .ask {
   cursor: pointer;
 }
@@ -257,14 +259,12 @@ ul li{
   font-family: "Roboto", serif;
   font-weight: 700;
   font-style: normal;
-
 }
-.ask li{
+.ask {
   font-size: 20px;
-  margin-top: 15px;
   list-style-type: none;
 }
-.ask li i{
+.ask  i{
   margin-right: 10px;
 }
 /* Collection */

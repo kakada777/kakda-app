@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import Home from './pages/Home';
-import { Route ,Router,Routes } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Read2 from './pages/Read2';
 import About from './pages/About';
 import Navbar from './components/Navbar';
