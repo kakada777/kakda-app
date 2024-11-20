@@ -13,7 +13,8 @@ import Contact from './pages/Contact';
 
 function App() {
   return (
-    <>  
+    <>
+    <BrowserRouter basename="/kakda-app"> 
     <Navbar/>
       <Routes>
         <Route path='/' element={<Home/>} />
@@ -24,7 +25,7 @@ function App() {
         <Route path='/shoes' element={<Shoes/>}/>
       </Routes>   
     <Footer/> 
-    
+    </BrowserRouter>  
     </>   
   );
 }

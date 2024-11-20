@@ -1,8 +1,8 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { BrowserRouter, Link } from 'react-router-dom'
 
 export default function Navbar() {
-  return (
+  return (  
     <header className=" d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom bg-white sticky-top ">
       <div className="container col-md-3 mb-2 mb-md-0">
         <Link to="/about-us" class="d-inline-flex link-body-emphasis text-decoration-none">
@@ -22,6 +22,6 @@ export default function Navbar() {
         <button type="button" class="btn btn-outline-primary me-2">Login</button>
         <button type="button" class="btn btn-primary">Sign-up</button>
       </div>
-    </header>
+    </header>  
   )
 }

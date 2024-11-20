@@ -2,7 +2,6 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React from 'react'
 import { Link } from 'react-router-dom'
-
 import ScrollButton from '../components/ScrollButton'
 
 
@@ -11,6 +10,7 @@ export default function Home() {
   return (
     <>
     <ScrollButton/>
+    
       <div className=" text-center  bg-body-tertiary home ">
         <div className="col-md-6 p-lg-5 mx-auto my-5 small-home">
           <h1 className="display-3 fw-bold text-white">Designed for engineers</h1>
