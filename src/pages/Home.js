@@ -22,7 +22,7 @@ export default function Home() {
         <div className="product-device shadow-sm d-none d-md-block"></div>
         <div className="product-device product-device-2 shadow-sm d-none d-md-block"></div>
       </div>
-      <div className='container ' data-aos="zoom-in-up">
+      <div className='container ' >
         <div className='row d-flex home-main1 p-3'>
           <div className='home-box1 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 '>
             <h1>TOP Seller</h1>
@@ -81,7 +81,7 @@ export default function Home() {
             <p>Our Services</p>
             <p className='btn'>View All Services</p>
         </div>
-        <div className='container main' data-aos="zoom-in-up">
+        <div className='container main' >
             <dic className='row box-services p-5 '>
               <div className='col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12 services-1 ' >
                 <img src={require('./picshoes/services1.png')} />
@@ -111,7 +111,7 @@ export default function Home() {
           </div>
           <div className='container' >
            <div className="row model-shoes">
-              <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 my-5" data-aos="zoom-in-up">
+              <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 my-5" >
                <div className="card card-model" >
                 <img src={require('./model/newmodel-1.webp')} />
                 <div className='model-box'>
@@ -120,7 +120,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 my-5" data-aos="zoom-in-up">
+              <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 my-5" >
                <div className="card card-model" >
                   <img src={require('./model/newmodel-3.webp')} alt="..."/>
                   <div className='model-box'>
@@ -129,7 +129,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 my-5" data-aos="zoom-in-up">
+              <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 my-5" >
                <div className="card card-model" >
                   <img src={require('./model/newmodel-2.webp')} alt="..."/>
                   <div className='model-box'>
@@ -147,21 +147,21 @@ export default function Home() {
           </div>
           <div className='container'>
             <div className="row ">
-              <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 my-5" data-aos="zoom-out-down">
+              <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 my-5" >
                <div className="card card-about" >
                   <h5>Nike, a globally renowned sportswear brand, with its iconic “Swoosh” logo and popular,has amassed a vast number of loyal fans</h5>
                   <img src={require('./model/unnamed.webp')} />
                   <h4>Customer</h4>
                 </div>
               </div>
-              <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 my-5" data-aos="zoom-out-down">
+              <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 my-5" >
                 <div className="card card-about" >
                   <h5>Nike and adidas are sportswear companies whose products are very popular around the world,</h5>
                   <img src={require('./model/unnamed.webp')} />
                   <h4>Customer</h4>
                 </div>
               </div>
-              <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 my-5" data-aos="zoom-out-down">
+              <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 my-5" >
                 <div className="card card-about" >
                   <h5>Nike has been established for a long time, and because of that it is embedded in alot of peoples subconscious.</h5>
                   <img src={require('./model/unnamed.webp')} />
@@ -173,7 +173,7 @@ export default function Home() {
        </div>
        <div className='main-ask'>
           <div className='container '> 
-            <div className='row  ' data-aos="zoom-out-down">
+            <div className='row  ' >
               <div className='col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 my-5 ask'>
                 <p>Frequently Asked Questions</p>
               </div>
@@ -241,7 +241,7 @@ export default function Home() {
           </div>
           <div className='container '>
            <div className="row ">
-              <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 my-5" data-aos="zoom-out">
+              <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 my-5" >
                <div className="card card-collection" >
                 <img src={require('./model/newmodel-1.webp')} />
                 <div className='collection-box'>
@@ -251,7 +251,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 my-5" data-aos="zoom-out">
+              <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 my-5" >
                <div className="card card-collection" >
                   <img src={require('./model/newmodel-3.webp')} alt="..."/>
                   <div className='collection-box'>
@@ -261,7 +261,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 my-5" data-aos="zoom-out">
+              <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 my-5" >
                <div className="card card-collection" >
                   <img src={require('./model/newmodel-2.webp')} alt="..."/>
                   <div className='collection-box'>
