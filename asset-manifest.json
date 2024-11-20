@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/kakda-app/static/css/main.6d954c66.css",
-    "main.js": "/kakda-app/static/js/main.d4fac00c.js",
+    "main.js": "/kakda-app/static/js/main.484ae9f7.js",
     "static/js/453.5060833f.chunk.js": "/kakda-app/static/js/453.5060833f.chunk.js",
     "static/media/LYNXNPEF6M1L9.jpeg": "/kakda-app/static/media/LYNXNPEF6M1L9.1c637c1c0d053ef3dac3.jpeg",
     "static/media/pngtree-abstract-background-with-3d-rendered-shoes-and-alarm-picture-image_3756028.jpg": "/kakda-app/static/media/pngtree-abstract-background-with-3d-rendered-shoes-and-alarm-picture-image_3756028.1c629e375f3762d5794e.jpg",
@@ -22,11 +22,11 @@
     "static/media/newmodel-2.webp": "/kakda-app/static/media/newmodel-2.c3175c3a1bd36b06f6b7.webp",
     "index.html": "/kakda-app/index.html",
     "main.6d954c66.css.map": "/kakda-app/static/css/main.6d954c66.css.map",
-    "main.d4fac00c.js.map": "/kakda-app/static/js/main.d4fac00c.js.map",
+    "main.484ae9f7.js.map": "/kakda-app/static/js/main.484ae9f7.js.map",
     "453.5060833f.chunk.js.map": "/kakda-app/static/js/453.5060833f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6d954c66.css",
-    "static/js/main.d4fac00c.js"
+    "static/js/main.484ae9f7.js"
   ]
 }
