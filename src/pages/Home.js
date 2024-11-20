@@ -241,7 +241,7 @@ export default function Home() {
           </div>
           <div className='container '>
            <div className="row ">
-              <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 my-5" >
+              <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 my-5">
                <div className="card card-collection" >
                 <img src={require('./model/newmodel-1.webp')} />
                 <div className='collection-box'>
