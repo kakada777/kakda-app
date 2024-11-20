@@ -9,7 +9,6 @@ import ScrollButton from '../components/ScrollButton'
 export default function Home() {
   
   return (
-    
     <>
     <ScrollButton/>
       <div className=" text-center  bg-body-tertiary home ">
