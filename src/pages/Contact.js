@@ -1,8 +1,10 @@
 import React from 'react'
+import ScrollButton from '../components/ScrollButton'
 
 export default function Contact() {
   return (
     <> 
+    <ScrollButton/>
     <div className='container'>
       <h1 className='text-center'>GET HELP</h1>
       <div class="form-floating mb-3 w-75 mx-auto mt-4">

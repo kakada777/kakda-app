@@ -3,6 +3,7 @@ import Card from '../components/Card';
 import LoadingView from '../components/LoadingView';
 import { Link } from 'react-router-dom';
 import { products } from '../data/products';
+import ScrollButton from '../components/ScrollButton';
 
 export default function Shoes() {
   const [isLoading, setLoading] = useState(true);
@@ -32,6 +33,7 @@ export default function Shoes() {
 
   return (
     <>
+    <ScrollButton/>
       <div id="carouselExampleInterval" className="carousel slide mb-5" data-bs-ride="carousel">       
         <div className="carousel-inner">
           <div className="carousel-item active" data-bs-interval="1000000">

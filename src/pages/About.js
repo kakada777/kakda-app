@@ -1,10 +1,12 @@
 /* eslint-disable jsx-a11y/no-redundant-roles */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
+import ScrollButton from '../components/ScrollButton'
 
 export default function About(){
   return (
     <> 
+    <ScrollButton/>
       <main>
         <div id="myCarousel" className="carousel slide mb-6" data-bs-ride="carousel">
           <div className="carousel-indicators">
