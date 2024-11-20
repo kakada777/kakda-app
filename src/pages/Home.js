@@ -81,9 +81,9 @@ export default function Home() {
             <p>Our Services</p>
             <p className='btn'>View All Services</p>
         </div>
-        <div className='container main' >
+        <div className='container main'>
             <dic className='row box-services p-5 '>
-              <div className='col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12 services-1 ' >
+              <div className='col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12 services-1 '>
                 <img src={require('./picshoes/services1.png')} />
                 <h1>Shop Online</h1>
                 <p>We need to pay money first and select Item you want to buy and pay if we will send this item to you after a few buy.</p>
