@@ -81,21 +81,21 @@ export default function Home() {
             <p>Our Services</p>
             <p className='btn'>View All Services</p>
         </div>
-        <div className='container main'>
+          <div className='container main'>
             <dic className='row box-services p-5 '>
-              <div className='col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12 services-1 '>
+              <div className='col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12 services-1 'data-aos="zoom-in-down">
                 <img src={require('./picshoes/services1.png')} />
                 <h1>Shop Online</h1>
                 <p>We need to pay money first and select Item you want to buy and pay if we will send this item to you after a few buy.</p>
                 <Link>Learn More</Link>
               </div>
-              <div className='col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12 services-1 ' >
+              <div className='col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12 services-1 ' data-aos="zoom-in-up">
                 <img src={require('./picshoes/services2.png')} />
                 <h1>Buy At The Shop</h1>
                 <p>You can ask information and show picture item you want to buy we will find it and send to you.</p>
                 <Link>Learn More</Link>
               </div>
-              <div className='col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12 services-1 ' >
+              <div className='col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12 services-1 ' data-aos="zoom-in">
                 <img src={require('./picshoes/services3.png')} />
                   <h1>Pay ment</h1>
                   <p>You can pay money cash or transfers by app so ABA.</p>
