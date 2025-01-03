@@ -9,7 +9,10 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+.Link{
+  
+  text-decoration: none;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -27,7 +30,8 @@ ul li{
 /* Home */
 .home{
   height: 650px;
-  background: url('./pages/picshoes/pngtree-abstract-background-with-3d-rendered-shoes-and-alarm-picture-image_3756028.jpg') no-repeat ;
+  background: url('./pages/picshoes/reportWebVitals.jpg') no-repeat center center;
+  background-size: cover;
   background-size: 100% 100%;
 }.home-h3{
   font-size: 15px;

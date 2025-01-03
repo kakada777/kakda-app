@@ -22,8 +22,8 @@ export default function Home() {
         <div className="product-device shadow-sm d-none d-md-block"></div>
         <div className="product-device product-device-2 shadow-sm d-none d-md-block"></div>
       </div>
-      <div className='container ' >
-        <div className='row d-flex home-main1 p-3'>
+      <div className='container ' data-aos="fade-down">
+        <div className='row d-flex home-main1 p-3' >
           <div className='home-box1 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 '>
             <h1>TOP Seller</h1>
             <p>The Nike Reax 8 TR combines lightweight containment with responsive cushioning for premium performance while training.</p>
@@ -83,23 +83,23 @@ export default function Home() {
         </div>
           <div className='container main'>
             <dic className='row box-services p-5 '>
-              <div className='col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12 services-1 '>
+              <div className='col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12 services-1 '  data-aos="fade-down">
                 <img src={require('./picshoes/services1.png')} />
                 <h1>Shop Online</h1>
                 <p>We need to pay money first and select Item you want to buy and pay if we will send this item to you after a few buy.</p>
-                <Link>Learn More</Link>
+                <Link className='Link'>Learn More</Link>
               </div>
-              <div className='col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12 services-1 '>
+              <div className='col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12 services-1 ' data-aos="fade-down">
                 <img src={require('./picshoes/services2.png')} />
                 <h1>Buy At The Shop</h1>
                 <p>You can ask information and show picture item you want to buy we will find it and send to you.</p>
-                <Link>Learn More</Link>
+                <Link className='Link'>Learn More</Link>
               </div>
-              <div className='col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12 services-1 '>
+              <div className='col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12 services-1 ' data-aos="fade-down">
                 <img src={require('./picshoes/services3.png')} />
                   <h1>Pay ment</h1>
                   <p>You can pay money cash or transfers by app so ABA.</p>
-                  <Link>Learn More</Link>
+                  <Link className='Link'>Learn More</Link>
               </div>
             </dic>
           </div>
